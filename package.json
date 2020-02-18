@@ -1,0 +1,35 @@
+{
+  "name": "weather-advisory",
+  "version": "1.0.0",
+  "description": "Provides weather information to prevent customer from getting caught by the rain without an umbrella",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danielcacheta/weather-advisory"
+  },
+  "keywords": [
+    "weather",
+    "forecast"
+  ],
+  "author": "Daniel Cacheta",
+  "license": "ISC",
+  "homepage": "https://github.com/danielcacheta/weather-advisory#readme",
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "debug": "^4.1.1",
+    "express": "^4.17.1",
+    "morgan": "^1.9.1",
+    "nodemon": "^2.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.20.1",
+    "jest": "^25.1.0",
+    "jest-cli": "^25.1.0"
+  }
+}

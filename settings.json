@@ -1,0 +1,9 @@
+{
+  "city": "Ribeirao Preto, Brazil",
+  "apiUrl": "http://api.openweathermap.org/data/2.5/forecast?q={city_name}&appid={api_key}",
+  "apiKey": "a4913d7edef2b29616a4de1f17e702c1",
+  "periodFilter": {
+    "initialTime": 6,
+    "finalTime": 21
+  }
+}
