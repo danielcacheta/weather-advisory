@@ -12,27 +12,35 @@ The tools used on this project are:
 This project requires [Node.js](https://nodejs.org/) v10+ to run.
 It is recommended to download the latest stable version using [NVM](https://github.com/creationix/nvm)
 
-Install the dependencies and devDependencies and start the server.
-
+To install the devDependencies:
 ```sh
-$ cd library
 $ npm install -d
-$ npm start
 ```
 
-To run unit tests
-
+To run unit tests:
 ```sh
-$ cd library
-$ npm install -d
 $ npm test
+```
+
+To start the server:
+```sh
+$ npm start
 ```
 
 To run on debug mode
 ```sh
 $ DEBUG=* node server.js
 ```
+When it starts with npm start, it does not display too much content on console and keeps listening to file changes so nodemon can restart the application.
+
+When it starts on debug mode, it shows more log messages as this example:
+
+![Debug_Mode](https://github.com/danielcacheta/weather-advisory/blob/master/images/debug-console.png)
 
 ### Check weather forecast for the next days
 
-Weather forecast for the next 5 days is displayed on [Weather Forecast URL](http://localhost:4000/forecast)
+The application starts on Port 4000
+
+Weather forecast for the next 5 days is displayed on [Weather Forecast URL](http://localhost:4000/forecast) as it shows below:
+
+![Forecast_Next_5_Days](https://github.com/danielcacheta/weather-advisory/blob/master/images/forecast-next-days.png)
